@@ -48,8 +48,13 @@
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
+     <property name="font">
+      <font>
+       <family>Arimo</family>
+      </font>
+     </property>
      <property name="text">
-      <string>Mostrar &amp;Paisagem</string>
+      <string>Paisagem</string>
      </property>
     </widget>
    </item>
@@ -61,8 +66,13 @@
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
+     <property name="font">
+      <font>
+       <family>Arimo</family>
+      </font>
+     </property>
      <property name="text">
-      <string>Mostrar &amp;Retrato</string>
+      <string>&amp;Retrato</string>
      </property>
     </widget>
    </item>
