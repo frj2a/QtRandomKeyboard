@@ -12,7 +12,7 @@ then
 else
 	QT_OTIMIZA="linux-g++"
 fi
-echo -e - - -Compilando o programa '\033[1;33m'Horloge'\033[0m', um relógio transparente até para eventos, para a plataforma '\033[1;33m'$MAQUINA'\033[0m' ...
+echo -e - - -Compilando o programa '\033[1;33m'QtRandomKeyboard'\033[0m', um teclado para entrada de senha em orientações diferentes, para a plataforma '\033[1;33m'$MAQUINA'\033[0m' ...
 
 lrelease -qt=qt5 QtRandomKeyboard.pro 2> /dev/null
 
@@ -42,4 +42,4 @@ if [ -e /usr/bin/cloc ]
 then
 	cloc *.cpp *.h
 fi
-echo -e - - -Finalizada a compilação do programa '\033[1;33m'Horloge'\033[0m', um relógio transparente até para eventos, para a plataforma '\033[1;33m'$MAQUINA'\033[0m' ...
+echo -e - - -Finalizada a compilação do programa '\033[1;33m'QtRandomKeyboard'\033[0m', um teclado para entrada de senha em orientações diferentes, para a plataforma '\033[1;33m'$MAQUINA'\033[0m' ...
